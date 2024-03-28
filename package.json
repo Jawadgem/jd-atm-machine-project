@@ -1,0 +1,26 @@
+{
+  "name": "cls",
+  "version": "1.0.0",
+  "description": "Simple ATM Machine",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "A",
+    "Simple",
+    "ATM",
+    "Machine",
+    "with",
+    "CLI"
+  ],
+  "author": "Jawad Nasir",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
