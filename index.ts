@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 import inquirer from "inquirer";
 
 let myBalance = 50000;
@@ -38,8 +40,11 @@ if (pinAnswer.pin === myPin) {
       console.log("Insufficient balance");
     }
 
-    myBalance -= amountAns.amount;
-    console.log("Your Remaining Balance is " + myBalance);
+    else {
+      myBalance -= amountAns.amount;
+      console.log("Your Remaining Balance is " + myBalance);
+    };
+
   } else if (operationAns.operation === "fastcash") {
     let cashFast = await inquirer.prompt([
       {
